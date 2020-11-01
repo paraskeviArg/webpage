@@ -1,0 +1,193 @@
+
+* {
+  box-sizing: border-box;
+  font-family: font;
+}
+body {
+	background-color: black;
+	color: white;
+}
+@font-face {
+   font-family: 'font';
+   src: url(Sansation/Sansation_Light.ttf); 
+}
+.row {
+	font-size:18px;
+	padding: 8px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.red {
+	color:red;
+}
+
+h1 {
+	font-size: 70px;
+}
+h2 {
+	font-size: 20px;
+}
+.image,.image1 {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+
+.center {
+	text-align:center;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+	h1 {
+		font-size: 60px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.row {
+		font-size:20px;
+		padding: 10px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+	h1 {
+		font-size: 100px;
+	}
+	h2 {
+		font-size: 50px;
+	}
+	.menu {
+		height:100%;
+	}
+	
+	.row {
+		font-size:23px;
+		padding: 20px;
+	}
+	.menu {
+		height:700px;
+	}
+	.image,.image1 {
+		width: 700px;
+		height: auto;
+		padding: 10px
+	}
+	.image1 {
+		width:800px;
+	}
+	
+	.text {
+		padding: 10px;
+	}
+	.flex-container {
+	display: flex;
+	flex-direction: row;
+	
+	}
+}
+
+	.explained{
+	font-size: 18px;
+}
+
+.class {
+	color:red;
+}
+
+.header {
+	text-align: center;
+}
+
+.menu {
+	background-color:#4d0000;
+}
+.menu a{
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	color: white;
+}
+#slideImage {
+	width: 100%;
+}
+.menu a:hover {
+  background-color: black;
+}
+.menu a.active {
+  background-color: red;
+  color: white;
+}
+.footer {
+	text-align: center;
+	font-size:40px;
+}
+.button {
+	background-color: #4d0000;
+	border: none;
+	color: white;
+	padding: 12px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+#changeBG {
+	background-color: black;
+}
+
+.previous {
+	color: white;
+}
+.next {
+	color: white;
+}
+.round {
+	border-radius: 50%;
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 22px;
+}
+.round:hover {
+  background-color: #ddd;
+  color: black;
+}

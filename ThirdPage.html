@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Third Page</title>
+<link rel="stylesheet" href="Exercise4CSS.css">
+<script src="js.js"></script>
+</head>
+<body onload="showDate(3)">
+<div id="date"> </div>
+<div class="header">
+	<h3>Page 3:</h3>
+</div>
+<div class="row" id="row">
+<div class="col-2 col-s-4 menu">
+	<a href="FirstPage.html">First Page</a>
+	<a href="SecondPage.html">Second Page</a>
+	<a href="ThirdPage.html" class="active">Third Page</a>
+	<a href="MorePhotos.html">More Photos</a>
+	<button class="button" onclick="changeBG(3)" onmouseout="leave()" onmouseover="hover()" id="changeBG">Use Light Font</button>
+</div>
+<div class="col-10 content">
+	<div class="flex-container">
+		<div class="text">
+		This is when it becomes apparent that this series is much more than what it shows. It is about rising 
+		awareness regarding mental illnesses, and making everyone, one step at a time, understand a little bit
+		better our fellow humans, since no bad behavior comes without hidden trauma and lack of compassion.
+		</div>
+		<div>
+		<picture>
+		<source id="big" media="(min-width: 768px)" srcset="elliot_young_big.png">
+		<source media="(min-width: 400px)" srcset="elliot_young.png">
+		<img class="image1"  src="elliot_young_big.png" alt="Young Elliot">
+		</picture><p class="center"> Elliot young </p>
+		</div>
+		</div>
+<button class="button" onclick="display()" id="showButton">Click here to learn more about Dissociative identity disorder.</button>
+<div style="display: none;" id="explained">"Dissociative identity disorder (DID), previously known as multiple personality disorder (MPD), 
+is a mental disorder characterized by the maintenance of at least two distinct and relatively enduring personality states.
+This is accompanied by memory gaps beyond what would be explained by ordinary forgetfulness. The personalities
+alternately show in a person's behavior; presentations, however, are variable. Other problems that often occur in people 
+with DID include borderline personality disorder (BPD), posttraumatic stress disorder (PTSD), depression, substance use 
+disorders, self-harm, and anxiety.";
+<br>
+Source:
+ <a href="https://en.wikipedia.org/wiki/Dissociative_identity_disorder|/">Wikipedia
+</div> 
+</div>
+</div>
+<div class="footer">			
+	<a href="SecondPage.html" class="previous round" id="previous">&#8249;</a>
+	<a href="MorePhotos.html" class="next round" id="next">&#8250;</a>				
+</div>
+</body>
+</html>

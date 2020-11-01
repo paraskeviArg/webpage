@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>First Page</title>
+<link rel="stylesheet" href="Exercise4CSS.css">
+<script src="js.js"></script>
+</head>
+<body onload="showDate(1)">
+<div id="date"> </div>
+<div class="header">
+			<h1 id="h1">Mr. Robot</h1>
+			<h2 class="red">(Spoiler Alert)</h2>
+			<h2 id="h2">More than just a cyber-revolution.</h2>
+			<h3>Page 1:</h3>
+</div> 	
+<div class="row" id="row">
+	<div class="col-2 col-s-4 menu">
+		<a href="FirstPage.html" class="active">First Page</a>
+		<a href="SecondPage.html">Second Page</a>
+		<a href="ThirdPage.html">Third Page</a>
+		<a href="MorePhotos.html">More Photos</a>
+		<button class="button" onclick="changeBG(1)" onmouseout="leave()" onmouseover="hover()" id="changeBG">Use Light Font</button>
+	</div>
+
+<div class="col-10 content">
+	<div class="flex-container">
+		<div class="text">
+		In the Mr. Robot series is starring Elliot, a security engineer by day, hacker by night, who works 
+		at a huge technology company called E corp. He lives alone in his apartment, and it seems his only friend 
+		is his childhood neighbor Angela, with whom he is secretly in love with. His life takes a turn when he meets 
+		group of hackers who are willing to recruit him in their mission to expose the people responsible for the 
+		corruption of the modern world. The rest of this series is going to circulate around this plan, and his moral 
+		indecisiveness about whether it should be up to him or not to change the world.
+		</div>
+		<div><img class="image" id="elliot_ecorp" src="elliot_ecorp.jpg"  alt="Elliot working"><p class="center"> Elliot working </p></div>		
+	</div>
+	<div  class="flex-container">
+		<div class="text">
+		In the meantime, two equally important characters are introduced to us, Mr. Robot 
+		alongside Darlene, Elliot’s sister who becomes his partner in crime. This is when it is realized
+		that Elliot struggles with serious mental problems. That is because Mr. Robot does not 
+		actually exist, but only in his mind. It is the figure of the father he lost years ago, and it 
+		has become his second personality. It should be noted that Elliot, in order to overcome his severe
+		depression, abuses drugs and prescriptions whilst at the same time he cannot help himself but 
+		obsessively hack everyone that he knows while keeping a record of all their personal infromation.
+		</div>
+		<div><img class="image" id="elliot_darlene" src="elliot_darlene.jpg"  alt="Elliot and Darlene"><p class="center">  Elliot and Darlene </p></div>
+	</div>
+</div>
+</div>
+<div class="footer">
+	<a href="SecondPage.html" class="next round" id="next">&#8250;</a>
+</div>
+
+</body>
+</html>

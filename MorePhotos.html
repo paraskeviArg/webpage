@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>More Photos</title>
+<link rel="stylesheet" href="Exercise4CSS.css">
+<script src="js.js"></script>
+</head>
+<body onload="showDate(3)">
+<div id="date"> </div>
+<div class="header">
+	<h3>Page 4:</h3>
+</div> 
+<div class="row" id="row">
+<div class="col-2 col-s-4 menu">
+	<a href="FirstPage.html">First Page</a>
+	<a href="SecondPage.html">Second Page</a>
+	<a href="ThirdPage.html">Third Page</a>
+	<a href="MorePhotos.html" class="active">More Photos</a>
+	<button class="button" onclick="changeBG(4)" onmouseout="leave()" onmouseover="hover()" id="changeBG">Use Light Font</button>
+</div>
+<div class="col-10 content">
+	<div class="center">
+	<img class="image" id="slideImage" src="angela.jpg"  alt="Angela" onclick="nextPicture()">
+	<p id="picD"> Angela </p>
+	</div>
+</div>
+</div>
+</div>
+<div class="footer">			
+	<a href="ThirdPage.html" class="previous round" id="previous">&#8249;</a>			
+</div>
+</body>
+</html>
